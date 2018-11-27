@@ -1,0 +1,11 @@
+1. Interpolacje Lagrange'a używam, gdy chcę uzyskać numeryczną wartość funkcji której nie znam, a którą przybliżam za pomocą wielomianów Lagrange'a. Warunek, aby był sens z tego korzystać jest następujący: podane punkty muszą być oddalone o taki sam krok (odległość między kolejnymi argumentami). W przeciwnym wypadku nie ma sensu używać tego typu przybliżania.
+
+2. Interpolacje Hermite'a używam w takiej samej sytuacji jak Lagrange'a jeśli dodatkowo wiem jak się zachowuje pochodna, dzięki temu uzyskuje lepsze przybliżenie.
+
+3. Aproksymację metodą największych kwadratów używam, gdy mam bardzo dużo różnych punktów, niekoniecznie o takim samym kroku.
+
+
+
+Interpolacja - przybliżanie funkcji za pomocą funkcji z pewnej klasy, np. wielomianami, funkcjami trygonometrycznymi, funkcjami sklejanymi itp. Znane są dokładne wartości funkcji w punktach węzłowych.
+
+Aproksymacja - funkcja aproksymująca nie musi wcale przyjmować identycznych wartości jak funkcja aproksymowana. W każdym razie nie ma tu punktów węzłowych. Kryteria aproksymacyjne są różne, np. kryterium średniokwadratowe jak w metodzie najmniejszych kwadratów.
